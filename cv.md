@@ -62,7 +62,7 @@ const isPrime = (number) => {
 
 
 
-### Educate:
+### Education:
 
 - 2021 Hexlet courses (PHP: Programming Fundamentals, 
 Basics of HTML, CSS and web design, 
