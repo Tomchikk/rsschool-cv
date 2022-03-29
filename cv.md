@@ -54,3 +54,29 @@ const isPrime = (number) => {
 }
 
 ```
+
+
+
+
+*********
+
+
+
+### Educate:
+
+- 2021 Hexlet courses (PHP: Programming Fundamentals, 
+Basics of HTML, CSS and web design, 
+Introduction to programming)
+- 2017-2020 St. Petersburg College of Industry Technologies, Finance and Law - "Finance"
+- 2020 St. Petersburg Institute of Technology, Faculty of Economics and Management - "Business Informatics"
+
+
+
+*********
+
+
+
+### Languages:
+
+- Russian - Native
+- English - Elementary
