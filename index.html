@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML, CSS & Git Basics</title>
+  </head>
+  <body>
+    <header>
+      <div class="headercl">
+        <div class="cltitle">
+          <h1>Tamara Isakova</h1>
+        </div>
+
+        <div class="clphoto">
+          <img src="photo.jpg" alt="" />
+        </div>
+        <div class="clcontacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li>
+              <strong>Email:</strong
+              ><a href="mailto:tamara.isakova7171@gmail.com" class="ssylka1"
+                >tamara.isakova7171@gmail.com</a
+              >
+            </li>
+            <li>
+              <strong>Telegram:</strong
+              ><a href="https://t.me/Tamara_Isakova" class="ssylka2"
+                >Tamara_Isakova</a
+              >
+            </li>
+            <li>
+              <strong>Phone:</strong
+              ><a href="tel:89681946591" class="ssylka">+7 968-194-65-91</a>
+            </li>
+          </ul>
+          <p>
+            At the moment I am learning programming languages ​​such as
+            JavaScript, Html and Php. In the future, I plan to learn Phyton,
+            React, NodeJS and Vue.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article>
+        <section>
+          <div class="block">
+            <div class="scills">
+              <h2>Scills:</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
+            </div>
+
+            <div class="code">
+              <h2>Code example:</h2>
+              <p>
+                Write a function that takes a number and returns true if the
+                number is prime and false otherwise.
+              </p>
+
+              <div class="codecl">
+                <hr />
+                <pre> 
+							<code> 
+              
+                const isPrime = (number) => {
+                  if (number < 2) {
+                  returne false;
+                   }
+                   
+                   for (let i = 2; i <= number / 2; i+=1) {
+                  if (number % i ===0) {
+                  returne false;
+                   }
+                  }
+                  
+                  returne true;   
+                }
+							</code>
+            </pre>
+                <hr />
+              </div>
+            </div>
+
+            <div class="education">
+              <h2>Education:</h2>
+              <ul>
+                <li>
+                  2021 Hexlet courses (PHP: Programming Fundamentals, Basics of
+                  HTML, CSS and web design, Introduction to programming)
+                </li>
+                <li>
+                  2017-2020 St. Petersburg College of Industry Technologies,
+                  Finance and Law - “Finance”
+                </li>
+                <li>
+                  2020 St. Petersburg Institute of Technology, Faculty of
+                  Economics and Management - “Business Informatics”
+                </li>
+              </ul>
+            </div>
+            <div class="languages">
+              <h2>Languages:</h2>
+              <ul>
+                <li>Russian - Native</li>
+                <li>English - Elementary</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+</html>
